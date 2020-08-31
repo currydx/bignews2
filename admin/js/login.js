@@ -14,6 +14,7 @@ $(function(){
           $('#myModal').on('hidden.bs.modal', function (e) {
             window.location.href='./index.html'
           })
+          localStorage.setItem('token',res.token)
         }
       }
     })
